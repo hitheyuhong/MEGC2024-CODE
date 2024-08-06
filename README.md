@@ -5,11 +5,10 @@ We use five-fold cross-validation to split the training set and test set.
 We use a fixed random seed to ensure the reproducibility of the experiments.  
 To avoid overfitting, we train only 8 epochs for every fold.  
 
-
 ## Prerequisites
 
-1. Place the `shape_predictor_68_face_landmarks.dat` file in the `model` folder.
-2. Unzip the `casme_feature.zip` file and update the `arg.casme_feature_path` to point to it.
+1. Place the `shape_predictor_68_face_landmarks.dat` file in the `model` folder. The file can be downloaded from [this link](https://drive.google.com/file/d/142qa90awRjQbOB_hZSTj6eupSHbcIFY-/view?usp=sharing).
+2. Unzip the `casme_feature.zip` file and update the `arg.casme_feature_path` to point to it. The file can be downloaded from [this link](https://drive.google.com/file/d/1GsWF_4wpf1mmpL27QWI8Eu5e6U1osykd/view?usp=sharing).
 3. Download the CAS(ME)², CASMEII, SAMM, and SAMM Long Video datasets. Place the labels in the `label/datasetlabel` folder.
 4. Modify the 10th column of the `CAS(ME)^2code_final(Updated).csv` file to include the corresponding video path. For example:
 
