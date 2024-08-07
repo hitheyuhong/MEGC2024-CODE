@@ -20,6 +20,11 @@ To avoid overfitting, we train only 8 epochs for every fold.
 
 Run `main_spotandrecog.py` for micro-expression analysis.
 
-By default, preliminary spotting results are saved in the `label/spot_result_test` folder. The final spotting and recognition results are saved in the `label/spot_recog_test` folder. Before running main_spotandrecog.py, ensure that the CSV file (cas_pred.csv and samm_pred.csv) contain only the header. Use the 'train_ME_recog_network.py' to train recognition module.
+By default, preliminary spotting results are saved in the `label/spot_result_test` folder.  
+The final spotting and recognition results are saved in the `label/spot_recog_test` folder.   
+
+If you want to recog ME, please make sure the cas_pred.csv and samm_pred.csv contain only the header, and make sure the initial spot result is in the 'casme_spot_result_test.csv' and 'samm_spot_result_test.csv'( which is already saved in the file when you upload the project).    
+If you want to spot ME initially, please make sure the 'casme_spot_result_test.csv' and 'samm_spot_result_test.csv' contain only the header.   
+If you want to train recognition module, you can use the 'train_ME_recog_network.py'. And make sure 'my_casme1.csv' and 'my_samm1.csv' contain only the header.
 
 
