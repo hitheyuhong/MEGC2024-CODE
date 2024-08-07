@@ -20,6 +20,6 @@ To avoid overfitting, we train only 8 epochs for every fold.
 
 Run `main_spotandrecog.py` for micro-expression analysis.
 
-By default, preliminary spotting results are saved in the `label/spot_result_test` folder. The final spotting and recognition results are saved in the `label/spot_recog_test` folder. Before running, ensure that the CSV file contains only the header.
+By default, preliminary spotting results are saved in the `label/spot_result_test` folder. The final spotting and recognition results are saved in the `label/spot_recog_test` folder. Before running main_spotandrecog.py, ensure that the CSV file (cas_pred.csv and samm_pred.csv) contain only the header.
 
 
