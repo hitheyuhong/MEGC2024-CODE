@@ -257,7 +257,7 @@ def recogME_testset(args):
                                                  shuffle=False,
                                                  pin_memory=True)
         ##val
-        save_params_list = ["model_au_1epoch8UF10.6378737726018464.pt", "model_au_2epoch8UF10.5139535055354237.pt",
+        save_params_list = ["model_au_1epoch8UF10.6378737726018464.pt", "model_au_2epoch9UF10.6221889148107728.pt",
                             "model_au_3epoch8UF10.4735202880633234.pt", "model_au_4epoch8UF10.5126984378420237.pt",
                             "model_au_5epoch8UF10.5891346145502192.pt"]
         print("===================================")
